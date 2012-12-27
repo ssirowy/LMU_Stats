@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7804DC201547AAA100631159 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 7804DC181547AAA100631159 /* ioapi.c */; };
+		7804DC211547AAA100631159 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 7804DC1A1547AAA100631159 /* mztools.c */; };
+		7804DC221547AAA100631159 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 7804DC1C1547AAA100631159 /* unzip.c */; };
+		7804DC231547AAA100631159 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 7804DC1E1547AAA100631159 /* zip.c */; };
+		7804DC271547AAD900631159 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 7804DC261547AAD900631159 /* SSZipArchive.m */; };
+		7804DC291547AB1500631159 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7804DC281547AB1500631159 /* libz.dylib */; };
+		781F06391550F6FB00EFA2C1 /* SZJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 781F06381550F6FB00EFA2C1 /* SZJSONParser.m */; };
+		781F063C1550F78600EFA2C1 /* gradrates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 781F063B1550F78600EFA2C1 /* gradrates.txt */; };
+		78235861155A2D1500FD16F1 /* LMUFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 78235860155A2D1500FD16F1 /* LMUFilters.m */; };
+		7846E2CE15DB52A00099F9DB /* LMUModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846E2CD15DB52A00099F9DB /* LMUModuleView.m */; };
+		7846E2D515DB56B00099F9DB /* LMUPDFModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846E2D415DB56B00099F9DB /* LMUPDFModuleView.m */; };
+		7846E2D815DB5A880099F9DB /* pdf_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7846E2D615DB5A880099F9DB /* pdf_icon.png */; };
+		7846E2D915DB5A880099F9DB /* report_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7846E2D715DB5A880099F9DB /* report_icon.png */; };
+		78553BCE157C24F80042BF2E /* LMUFilterSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78553BCD157C24F80042BF2E /* LMUFilterSelectionViewController.m */; };
+		785AD8DE15CA390600A44630 /* DTGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785AD8D815CA390600A44630 /* DTGridView.m */; };
+		785AD8DF15CA390600A44630 /* DTGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785AD8DA15CA390600A44630 /* DTGridViewCell.m */; };
+		785AD8E015CA390600A44630 /* DTGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785AD8DD15CA390600A44630 /* DTGridViewController.m */; };
+		785AD8EA15CA3C9B00A44630 /* LMUGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785AD8E915CA3C9A00A44630 /* LMUGridCell.m */; };
+		785F1CCF15DA0BF200A9C7DD /* gradrates_new.txt in Resources */ = {isa = PBXBuildFile; fileRef = 785F1CCE15DA0BF200A9C7DD /* gradrates_new.txt */; };
+		7872095715DA015700D874F2 /* LMU_Map.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7872095615DA015700D874F2 /* LMU_Map.pdf */; };
+		7872C2D315353FE900FD5295 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7872C2D215353FE900FD5295 /* UIKit.framework */; };
+		7872C2D515353FE900FD5295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7872C2D415353FE900FD5295 /* Foundation.framework */; };
+		7872C2D715353FE900FD5295 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7872C2D615353FE900FD5295 /* CoreGraphics.framework */; };
+		7872C2DD15353FE900FD5295 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7872C2DB15353FE900FD5295 /* InfoPlist.strings */; };
+		7872C2DF15353FE900FD5295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7872C2DE15353FE900FD5295 /* main.m */; };
+		7872C2E315353FE900FD5295 /* LMUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7872C2E215353FE900FD5295 /* LMUAppDelegate.m */; };
+		7872C2E615353FE900FD5295 /* LMUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7872C2E515353FE900FD5295 /* LMUViewController.m */; };
+		7872C2E915353FE900FD5295 /* LMUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7872C2E715353FE900FD5295 /* LMUViewController.xib */; };
+		7872C2F11535403900FD5295 /* lmu_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7872C2F01535403900FD5295 /* lmu_logo.png */; };
+		7872C2F41535436700FD5295 /* LMUSlideOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7872C2F31535436700FD5295 /* LMUSlideOutView.m */; };
+		7872C2F6153545AC00FD5295 /* ModulesTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 7872C2F5153545AC00FD5295 /* ModulesTab.png */; };
+		7872C2F815354CD300FD5295 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7872C2F715354CD300FD5295 /* QuartzCore.framework */; };
+		7872C2FA15354D5E00FD5295 /* WhiteTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7872C2F915354D5E00FD5295 /* WhiteTriangle.png */; };
+		7872C2FD1536880F00FD5295 /* LMUModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7872C2FC1536880F00FD5295 /* LMUModule.m */; };
+		7872C300153690EF00FD5295 /* LMUReportModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7872C2FF153690EF00FD5295 /* LMUReportModuleView.m */; };
+		78AB42BF15E18A4B007405B4 /* LMUFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AB42BE15E18A4A007405B4 /* LMUFilter.m */; };
+		78AB42C315E18AAF007405B4 /* LMUReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AB42C215E18AAF007405B4 /* LMUReport.m */; };
+		78AB42C715E18C56007405B4 /* LMUAboutModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AB42C615E18C56007405B4 /* LMUAboutModule.m */; };
+		78AB42CA15E1E649007405B4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AB42C815E1E649007405B4 /* icon.png */; };
+		78AB42CB15E1E649007405B4 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AB42C915E1E649007405B4 /* icon@2x.png */; };
+		78D1E75E15EABB5E00F1EBC8 /* LMUReports.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D1E75D15EABB5E00F1EBC8 /* LMUReports.m */; };
+		78D1E76115EABB7A00F1EBC8 /* gradrates2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D1E76015EABB7A00F1EBC8 /* gradrates2.txt */; };
+		78E5EB2A15DA03AF0047BFFA /* GMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E5EB2915DA03AF0047BFFA /* GMButton.m */; };
+		78E5EB2E15DA058B0047BFFA /* UIColor+LMUColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E5EB2D15DA058B0047BFFA /* UIColor+LMUColors.m */; };
+		78E5EB3615DA08DB0047BFFA /* LMUReportModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E5EB3515DA08DB0047BFFA /* LMUReportModule.m */; };
+		78E5EB3915DA09110047BFFA /* LMUPDFModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E5EB3815DA09110047BFFA /* LMUPDFModule.m */; };
+		78F5A20B15D0B21D00E8419F /* LMUHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F5A20A15D0B21D00E8419F /* LMUHeader.m */; };
+		78F5A21215D0BC1500E8419F /* LMUReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F5A21115D0BC1500E8419F /* LMUReportView.m */; };
+		78F5A21915D0C63A00E8419F /* LMUAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F5A21815D0C63A00E8419F /* LMUAttributedString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7804DC171547AAA100631159 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		7804DC181547AAA100631159 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		7804DC191547AAA100631159 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		7804DC1A1547AAA100631159 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		7804DC1B1547AAA100631159 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		7804DC1C1547AAA100631159 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		7804DC1D1547AAA100631159 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		7804DC1E1547AAA100631159 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		7804DC1F1547AAA100631159 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		7804DC251547AAD900631159 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		7804DC261547AAD900631159 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		7804DC281547AB1500631159 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		781F06371550F6FB00EFA2C1 /* SZJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZJSONParser.h; sourceTree = "<group>"; };
+		781F06381550F6FB00EFA2C1 /* SZJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZJSONParser.m; sourceTree = "<group>"; };
+		781F063B1550F78600EFA2C1 /* gradrates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gradrates.txt; path = Resources/gradrates.txt; sourceTree = "<group>"; };
+		7823585F155A2D1500FD16F1 /* LMUFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUFilters.h; sourceTree = "<group>"; };
+		78235860155A2D1500FD16F1 /* LMUFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUFilters.m; sourceTree = "<group>"; };
+		7846E2CC15DB52A00099F9DB /* LMUModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUModuleView.h; sourceTree = "<group>"; };
+		7846E2CD15DB52A00099F9DB /* LMUModuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUModuleView.m; sourceTree = "<group>"; };
+		7846E2D315DB56B00099F9DB /* LMUPDFModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUPDFModuleView.h; sourceTree = "<group>"; };
+		7846E2D415DB56B00099F9DB /* LMUPDFModuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUPDFModuleView.m; sourceTree = "<group>"; };
+		7846E2D615DB5A880099F9DB /* pdf_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdf_icon.png; sourceTree = "<group>"; };
+		7846E2D715DB5A880099F9DB /* report_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = report_icon.png; sourceTree = "<group>"; };
+		78553BCC157C24F80042BF2E /* LMUFilterSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUFilterSelectionViewController.h; sourceTree = "<group>"; };
+		78553BCD157C24F80042BF2E /* LMUFilterSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUFilterSelectionViewController.m; sourceTree = "<group>"; };
+		785AD8D715CA390600A44630 /* DTGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGridView.h; sourceTree = "<group>"; };
+		785AD8D815CA390600A44630 /* DTGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGridView.m; sourceTree = "<group>"; };
+		785AD8D915CA390600A44630 /* DTGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGridViewCell.h; sourceTree = "<group>"; };
+		785AD8DA15CA390600A44630 /* DTGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGridViewCell.m; sourceTree = "<group>"; };
+		785AD8DB15CA390600A44630 /* DTGridViewCellInfoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGridViewCellInfoProtocol.h; sourceTree = "<group>"; };
+		785AD8DC15CA390600A44630 /* DTGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGridViewController.h; sourceTree = "<group>"; };
+		785AD8DD15CA390600A44630 /* DTGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGridViewController.m; sourceTree = "<group>"; };
+		785AD8E815CA3C9A00A44630 /* LMUGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUGridCell.h; sourceTree = "<group>"; };
+		785AD8E915CA3C9A00A44630 /* LMUGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUGridCell.m; sourceTree = "<group>"; };
+		785F1CCE15DA0BF200A9C7DD /* gradrates_new.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gradrates_new.txt; path = Resources/gradrates_new.txt; sourceTree = "<group>"; };
+		7872095615DA015700D874F2 /* LMU_Map.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = LMU_Map.pdf; path = Resources/LMU_Map.pdf; sourceTree = "<group>"; };
+		7872C2CE15353FE900FD5295 /* Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7872C2D215353FE900FD5295 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7872C2D415353FE900FD5295 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7872C2D615353FE900FD5295 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7872C2DA15353FE900FD5295 /* Stats-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stats-Info.plist"; sourceTree = "<group>"; };
+		7872C2DC15353FE900FD5295 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7872C2DE15353FE900FD5295 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7872C2E015353FE900FD5295 /* Stats-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stats-Prefix.pch"; sourceTree = "<group>"; };
+		7872C2E115353FE900FD5295 /* LMUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMUAppDelegate.h; sourceTree = "<group>"; };
+		7872C2E215353FE900FD5295 /* LMUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMUAppDelegate.m; sourceTree = "<group>"; };
+		7872C2E415353FE900FD5295 /* LMUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMUViewController.h; sourceTree = "<group>"; };
+		7872C2E515353FE900FD5295 /* LMUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMUViewController.m; sourceTree = "<group>"; };
+		7872C2E815353FE900FD5295 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LMUViewController.xib; sourceTree = "<group>"; };
+		7872C2F01535403900FD5295 /* lmu_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lmu_logo.png; sourceTree = "<group>"; };
+		7872C2F21535436700FD5295 /* LMUSlideOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUSlideOutView.h; sourceTree = "<group>"; };
+		7872C2F31535436700FD5295 /* LMUSlideOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUSlideOutView.m; sourceTree = "<group>"; };
+		7872C2F5153545AC00FD5295 /* ModulesTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ModulesTab.png; sourceTree = "<group>"; };
+		7872C2F715354CD300FD5295 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7872C2F915354D5E00FD5295 /* WhiteTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTriangle.png; sourceTree = "<group>"; };
+		7872C2FB1536880F00FD5295 /* LMUModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUModule.h; sourceTree = "<group>"; };
+		7872C2FC1536880F00FD5295 /* LMUModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUModule.m; sourceTree = "<group>"; };
+		7872C2FE153690EF00FD5295 /* LMUReportModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUReportModuleView.h; sourceTree = "<group>"; };
+		7872C2FF153690EF00FD5295 /* LMUReportModuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUReportModuleView.m; sourceTree = "<group>"; };
+		78AB42BD15E18A4A007405B4 /* LMUFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUFilter.h; sourceTree = "<group>"; };
+		78AB42BE15E18A4A007405B4 /* LMUFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUFilter.m; sourceTree = "<group>"; };
+		78AB42C115E18AAE007405B4 /* LMUReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUReport.h; sourceTree = "<group>"; };
+		78AB42C215E18AAF007405B4 /* LMUReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUReport.m; sourceTree = "<group>"; };
+		78AB42C515E18C56007405B4 /* LMUAboutModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUAboutModule.h; sourceTree = "<group>"; };
+		78AB42C615E18C56007405B4 /* LMUAboutModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUAboutModule.m; sourceTree = "<group>"; };
+		78AB42C815E1E649007405B4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		78AB42C915E1E649007405B4 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		78D1E75C15EABB5E00F1EBC8 /* LMUReports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUReports.h; sourceTree = "<group>"; };
+		78D1E75D15EABB5E00F1EBC8 /* LMUReports.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUReports.m; sourceTree = "<group>"; };
+		78D1E76015EABB7A00F1EBC8 /* gradrates2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gradrates2.txt; path = Resources/gradrates2.txt; sourceTree = "<group>"; };
+		78E5EB2815DA03AF0047BFFA /* GMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMButton.h; sourceTree = "<group>"; };
+		78E5EB2915DA03AF0047BFFA /* GMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMButton.m; sourceTree = "<group>"; };
+		78E5EB2C15DA058B0047BFFA /* UIColor+LMUColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LMUColors.h"; sourceTree = "<group>"; };
+		78E5EB2D15DA058B0047BFFA /* UIColor+LMUColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LMUColors.m"; sourceTree = "<group>"; };
+		78E5EB3415DA08DB0047BFFA /* LMUReportModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUReportModule.h; sourceTree = "<group>"; };
+		78E5EB3515DA08DB0047BFFA /* LMUReportModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUReportModule.m; sourceTree = "<group>"; };
+		78E5EB3715DA09110047BFFA /* LMUPDFModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUPDFModule.h; sourceTree = "<group>"; };
+		78E5EB3815DA09110047BFFA /* LMUPDFModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUPDFModule.m; sourceTree = "<group>"; };
+		78F5A20915D0B21D00E8419F /* LMUHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUHeader.h; sourceTree = "<group>"; };
+		78F5A20A15D0B21D00E8419F /* LMUHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUHeader.m; sourceTree = "<group>"; };
+		78F5A21015D0BC1500E8419F /* LMUReportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUReportView.h; sourceTree = "<group>"; };
+		78F5A21115D0BC1500E8419F /* LMUReportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUReportView.m; sourceTree = "<group>"; };
+		78F5A21715D0C63A00E8419F /* LMUAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUAttributedString.h; sourceTree = "<group>"; };
+		78F5A21815D0C63A00E8419F /* LMUAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUAttributedString.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7872C2CB15353FE900FD5295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7804DC291547AB1500631159 /* libz.dylib in Frameworks */,
+				7872C2F815354CD300FD5295 /* QuartzCore.framework in Frameworks */,
+				7872C2D315353FE900FD5295 /* UIKit.framework in Frameworks */,
+				7872C2D515353FE900FD5295 /* Foundation.framework in Frameworks */,
+				7872C2D715353FE900FD5295 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7804DC151547AAA100631159 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				78E5EB2715DA03AF0047BFFA /* GMButton */,
+				785AD8D615CA390600A44630 /* DTGridView */,
+				785AD8D515CA38F500A44630 /* Zip */,
+				785AD8D415CA38E700A44630 /* JSON */,
+				7804DC161547AAA100631159 /* minizip */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		7804DC161547AAA100631159 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				7804DC171547AAA100631159 /* crypt.h */,
+				7804DC181547AAA100631159 /* ioapi.c */,
+				7804DC191547AAA100631159 /* ioapi.h */,
+				7804DC1A1547AAA100631159 /* mztools.c */,
+				7804DC1B1547AAA100631159 /* mztools.h */,
+				7804DC1C1547AAA100631159 /* unzip.c */,
+				7804DC1D1547AAA100631159 /* unzip.h */,
+				7804DC1E1547AAA100631159 /* zip.c */,
+				7804DC1F1547AAA100631159 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		7846E2D015DB52A60099F9DB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7846E2CC15DB52A00099F9DB /* LMUModuleView.h */,
+				7846E2CD15DB52A00099F9DB /* LMUModuleView.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7846E2D115DB52C80099F9DB /* Slide out */ = {
+			isa = PBXGroup;
+			children = (
+				7872C2F21535436700FD5295 /* LMUSlideOutView.h */,
+				7872C2F31535436700FD5295 /* LMUSlideOutView.m */,
+			);
+			name = "Slide out";
+			sourceTree = "<group>";
+		};
+		7846E2D215DB567B0099F9DB /* PDF Module */ = {
+			isa = PBXGroup;
+			children = (
+				7846E2D315DB56B00099F9DB /* LMUPDFModuleView.h */,
+				7846E2D415DB56B00099F9DB /* LMUPDFModuleView.m */,
+			);
+			name = "PDF Module";
+			sourceTree = "<group>";
+		};
+		7846E2DA15DB5C760099F9DB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				78E5EB2C15DA058B0047BFFA /* UIColor+LMUColors.h */,
+				78E5EB2D15DA058B0047BFFA /* UIColor+LMUColors.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		7846E2DB15DB5C830099F9DB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				78553BCC157C24F80042BF2E /* LMUFilterSelectionViewController.h */,
+				78553BCD157C24F80042BF2E /* LMUFilterSelectionViewController.m */,
+				7872C2E415353FE900FD5295 /* LMUViewController.h */,
+				7872C2E515353FE900FD5295 /* LMUViewController.m */,
+				7872C2E715353FE900FD5295 /* LMUViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		785AD8D415CA38E700A44630 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				781F06371550F6FB00EFA2C1 /* SZJSONParser.h */,
+				781F06381550F6FB00EFA2C1 /* SZJSONParser.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		785AD8D515CA38F500A44630 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				7804DC251547AAD900631159 /* SSZipArchive.h */,
+				7804DC261547AAD900631159 /* SSZipArchive.m */,
+			);
+			name = Zip;
+			sourceTree = "<group>";
+		};
+		785AD8D615CA390600A44630 /* DTGridView */ = {
+			isa = PBXGroup;
+			children = (
+				785AD8D715CA390600A44630 /* DTGridView.h */,
+				785AD8D815CA390600A44630 /* DTGridView.m */,
+				785AD8D915CA390600A44630 /* DTGridViewCell.h */,
+				785AD8DA15CA390600A44630 /* DTGridViewCell.m */,
+				785AD8DB15CA390600A44630 /* DTGridViewCellInfoProtocol.h */,
+				785AD8DC15CA390600A44630 /* DTGridViewController.h */,
+				785AD8DD15CA390600A44630 /* DTGridViewController.m */,
+			);
+			path = DTGridView;
+			sourceTree = "<group>";
+		};
+		785F1CD115DA0CFC00A9C7DD /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				78D1E75C15EABB5E00F1EBC8 /* LMUReports.h */,
+				78D1E75D15EABB5E00F1EBC8 /* LMUReports.m */,
+				78E5EB3415DA08DB0047BFFA /* LMUReportModule.h */,
+				78E5EB3515DA08DB0047BFFA /* LMUReportModule.m */,
+				78F5A20915D0B21D00E8419F /* LMUHeader.h */,
+				78F5A20A15D0B21D00E8419F /* LMUHeader.m */,
+				7823585F155A2D1500FD16F1 /* LMUFilters.h */,
+				78235860155A2D1500FD16F1 /* LMUFilters.m */,
+				78F5A21715D0C63A00E8419F /* LMUAttributedString.h */,
+				78F5A21815D0C63A00E8419F /* LMUAttributedString.m */,
+				78AB42BD15E18A4A007405B4 /* LMUFilter.h */,
+				78AB42BE15E18A4A007405B4 /* LMUFilter.m */,
+				78AB42C115E18AAE007405B4 /* LMUReport.h */,
+				78AB42C215E18AAF007405B4 /* LMUReport.m */,
+			);
+			name = Reports;
+			sourceTree = "<group>";
+		};
+		785F1CD215DA0D1000A9C7DD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7872C2FB1536880F00FD5295 /* LMUModule.h */,
+				7872C2FC1536880F00FD5295 /* LMUModule.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		785F1CD315DA0D1800A9C7DD /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				78E5EB3715DA09110047BFFA /* LMUPDFModule.h */,
+				78E5EB3815DA09110047BFFA /* LMUPDFModule.m */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
+		7872C2C315353FE800FD5295 = {
+			isa = PBXGroup;
+			children = (
+				7872C2D815353FE900FD5295 /* Stats */,
+				7872C2D115353FE900FD5295 /* Frameworks */,
+				7872C2CF15353FE900FD5295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7872C2CF15353FE900FD5295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7872C2CE15353FE900FD5295 /* Stats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7872C2D115353FE900FD5295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7872C2F715354CD300FD5295 /* QuartzCore.framework */,
+				7804DC281547AB1500631159 /* libz.dylib */,
+				7872C2D215353FE900FD5295 /* UIKit.framework */,
+				7872C2D415353FE900FD5295 /* Foundation.framework */,
+				7872C2D615353FE900FD5295 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7872C2D815353FE900FD5295 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				78F5A21615D0C5F400E8419F /* Application */,
+				7804DC151547AAA100631159 /* Third Party */,
+				7872C2D915353FE900FD5295 /* Supporting Files */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		7872C2D915353FE900FD5295 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D1E75F15EABB6900F1EBC8 /* Sample JSON */,
+				7872C2EF1535403900FD5295 /* Images */,
+				7872095615DA015700D874F2 /* LMU_Map.pdf */,
+				7872C2DA15353FE900FD5295 /* Stats-Info.plist */,
+				7872C2DB15353FE900FD5295 /* InfoPlist.strings */,
+				7872C2DE15353FE900FD5295 /* main.m */,
+				7872C2E015353FE900FD5295 /* Stats-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7872C2EF1535403900FD5295 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				78AB42C815E1E649007405B4 /* icon.png */,
+				78AB42C915E1E649007405B4 /* icon@2x.png */,
+				7846E2D615DB5A880099F9DB /* pdf_icon.png */,
+				7846E2D715DB5A880099F9DB /* report_icon.png */,
+				7872C2F915354D5E00FD5295 /* WhiteTriangle.png */,
+				7872C2F5153545AC00FD5295 /* ModulesTab.png */,
+				7872C2F01535403900FD5295 /* lmu_logo.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		78AB42C415E18C0F007405B4 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				78AB42C515E18C56007405B4 /* LMUAboutModule.h */,
+				78AB42C615E18C56007405B4 /* LMUAboutModule.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		78D1E75F15EABB6900F1EBC8 /* Sample JSON */ = {
+			isa = PBXGroup;
+			children = (
+				78D1E76015EABB7A00F1EBC8 /* gradrates2.txt */,
+				785F1CCE15DA0BF200A9C7DD /* gradrates_new.txt */,
+				781F063B1550F78600EFA2C1 /* gradrates.txt */,
+			);
+			name = "Sample JSON";
+			sourceTree = "<group>";
+		};
+		78E5EB2715DA03AF0047BFFA /* GMButton */ = {
+			isa = PBXGroup;
+			children = (
+				78E5EB2815DA03AF0047BFFA /* GMButton.h */,
+				78E5EB2915DA03AF0047BFFA /* GMButton.m */,
+			);
+			path = GMButton;
+			sourceTree = "<group>";
+		};
+		78E5EB3315DA08BF0047BFFA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				785F1CD215DA0D1000A9C7DD /* Base */,
+				785F1CD115DA0CFC00A9C7DD /* Reports */,
+				785F1CD315DA0D1800A9C7DD /* PDF */,
+				78AB42C415E18C0F007405B4 /* About */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		78F5A21315D0C5A300E8419F /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				78E5EB3315DA08BF0047BFFA /* Modules */,
+			);
+			name = "Model Objects";
+			sourceTree = "<group>";
+		};
+		78F5A21415D0C5B700E8419F /* Report Module */ = {
+			isa = PBXGroup;
+			children = (
+				7872C2FE153690EF00FD5295 /* LMUReportModuleView.h */,
+				7872C2FF153690EF00FD5295 /* LMUReportModuleView.m */,
+				785AD8E815CA3C9A00A44630 /* LMUGridCell.h */,
+				785AD8E915CA3C9A00A44630 /* LMUGridCell.m */,
+				78F5A21015D0BC1500E8419F /* LMUReportView.h */,
+				78F5A21115D0BC1500E8419F /* LMUReportView.m */,
+			);
+			name = "Report Module";
+			sourceTree = "<group>";
+		};
+		78F5A21515D0C5DB00E8419F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7846E2D115DB52C80099F9DB /* Slide out */,
+				7846E2D015DB52A60099F9DB /* Base */,
+				78F5A21415D0C5B700E8419F /* Report Module */,
+				7846E2D215DB567B0099F9DB /* PDF Module */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		78F5A21615D0C5F400E8419F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7872C2E115353FE900FD5295 /* LMUAppDelegate.h */,
+				7872C2E215353FE900FD5295 /* LMUAppDelegate.m */,
+				78F5A21315D0C5A300E8419F /* Model Objects */,
+				78F5A21515D0C5DB00E8419F /* Views */,
+				7846E2DB15DB5C830099F9DB /* View Controllers */,
+				7846E2DA15DB5C760099F9DB /* Utility */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7872C2CD15353FE900FD5295 /* Stats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7872C2EC15353FE900FD5295 /* Build configuration list for PBXNativeTarget "Stats" */;
+			buildPhases = (
+				7872C2CA15353FE900FD5295 /* Sources */,
+				7872C2CB15353FE900FD5295 /* Frameworks */,
+				7872C2CC15353FE900FD5295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stats;
+			productName = Stats;
+			productReference = 7872C2CE15353FE900FD5295 /* Stats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7872C2C515353FE800FD5295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LMU;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7872C2C815353FE800FD5295 /* Build configuration list for PBXProject "Stats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7872C2C315353FE800FD5295;
+			productRefGroup = 7872C2CF15353FE900FD5295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7872C2CD15353FE900FD5295 /* Stats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7872C2CC15353FE900FD5295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7872C2DD15353FE900FD5295 /* InfoPlist.strings in Resources */,
+				7872C2E915353FE900FD5295 /* LMUViewController.xib in Resources */,
+				7872C2F11535403900FD5295 /* lmu_logo.png in Resources */,
+				7872C2F6153545AC00FD5295 /* ModulesTab.png in Resources */,
+				7872C2FA15354D5E00FD5295 /* WhiteTriangle.png in Resources */,
+				781F063C1550F78600EFA2C1 /* gradrates.txt in Resources */,
+				7872095715DA015700D874F2 /* LMU_Map.pdf in Resources */,
+				785F1CCF15DA0BF200A9C7DD /* gradrates_new.txt in Resources */,
+				7846E2D815DB5A880099F9DB /* pdf_icon.png in Resources */,
+				7846E2D915DB5A880099F9DB /* report_icon.png in Resources */,
+				78AB42CA15E1E649007405B4 /* icon.png in Resources */,
+				78AB42CB15E1E649007405B4 /* icon@2x.png in Resources */,
+				78D1E76115EABB7A00F1EBC8 /* gradrates2.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7872C2CA15353FE900FD5295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7872C2DF15353FE900FD5295 /* main.m in Sources */,
+				7872C2E315353FE900FD5295 /* LMUAppDelegate.m in Sources */,
+				7872C2E615353FE900FD5295 /* LMUViewController.m in Sources */,
+				7872C2F41535436700FD5295 /* LMUSlideOutView.m in Sources */,
+				7872C2FD1536880F00FD5295 /* LMUModule.m in Sources */,
+				7872C300153690EF00FD5295 /* LMUReportModuleView.m in Sources */,
+				7804DC201547AAA100631159 /* ioapi.c in Sources */,
+				7804DC211547AAA100631159 /* mztools.c in Sources */,
+				7804DC221547AAA100631159 /* unzip.c in Sources */,
+				7804DC231547AAA100631159 /* zip.c in Sources */,
+				7804DC271547AAD900631159 /* SSZipArchive.m in Sources */,
+				781F06391550F6FB00EFA2C1 /* SZJSONParser.m in Sources */,
+				78235861155A2D1500FD16F1 /* LMUFilters.m in Sources */,
+				78553BCE157C24F80042BF2E /* LMUFilterSelectionViewController.m in Sources */,
+				785AD8DE15CA390600A44630 /* DTGridView.m in Sources */,
+				785AD8DF15CA390600A44630 /* DTGridViewCell.m in Sources */,
+				785AD8E015CA390600A44630 /* DTGridViewController.m in Sources */,
+				785AD8EA15CA3C9B00A44630 /* LMUGridCell.m in Sources */,
+				78F5A20B15D0B21D00E8419F /* LMUHeader.m in Sources */,
+				78F5A21215D0BC1500E8419F /* LMUReportView.m in Sources */,
+				78F5A21915D0C63A00E8419F /* LMUAttributedString.m in Sources */,
+				78E5EB2A15DA03AF0047BFFA /* GMButton.m in Sources */,
+				78E5EB2E15DA058B0047BFFA /* UIColor+LMUColors.m in Sources */,
+				78E5EB3615DA08DB0047BFFA /* LMUReportModule.m in Sources */,
+				78E5EB3915DA09110047BFFA /* LMUPDFModule.m in Sources */,
+				7846E2CE15DB52A00099F9DB /* LMUModuleView.m in Sources */,
+				7846E2D515DB56B00099F9DB /* LMUPDFModuleView.m in Sources */,
+				78AB42BF15E18A4B007405B4 /* LMUFilter.m in Sources */,
+				78AB42C315E18AAF007405B4 /* LMUReport.m in Sources */,
+				78AB42C715E18C56007405B4 /* LMUAboutModule.m in Sources */,
+				78D1E75E15EABB5E00F1EBC8 /* LMUReports.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7872C2DB15353FE900FD5295 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7872C2DC15353FE900FD5295 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7872C2E715353FE900FD5295 /* LMUViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7872C2E815353FE900FD5295 /* en */,
+			);
+			name = LMUViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7872C2EA15353FE900FD5295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7872C2EB15353FE900FD5295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7872C2ED15353FE900FD5295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stats/Stats-Prefix.pch";
+				INFOPLIST_FILE = "Stats/Stats-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7872C2EE15353FE900FD5295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stats/Stats-Prefix.pch";
+				INFOPLIST_FILE = "Stats/Stats-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7872C2C815353FE800FD5295 /* Build configuration list for PBXProject "Stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7872C2EA15353FE900FD5295 /* Debug */,
+				7872C2EB15353FE900FD5295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7872C2EC15353FE900FD5295 /* Build configuration list for PBXNativeTarget "Stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7872C2ED15353FE900FD5295 /* Debug */,
+				7872C2EE15353FE900FD5295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7872C2C515353FE800FD5295 /* Project object */;
+}
