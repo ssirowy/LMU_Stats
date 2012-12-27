@@ -1,0 +1,14 @@
+TODO
+
+ss: Lazily load modules
+ss: Fix rendering issues on grid view
+ss: Libarary of PDF Modules (flip side view to show PDFs)
+ss: Separate modules should have separate JSON
+ss: Start using zipped folder (array of JSON, PDFs, etc)
+ss: Waiting indicators while JSON is loading
+ss: About module
+ss: Work on about bio
+ss: Remove all references to ESRI in bundle identifier
+bm: Work on about bio
+bm: Spec out JSON for library module
+
