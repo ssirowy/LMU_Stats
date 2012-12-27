@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		258351F3168CE61900D99753 /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = 258351EF168CE61900D99753 /* library.png */; };
+		258351F4168CE61900D99753 /* library@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258351F0168CE61900D99753 /* library@2x.png */; };
+		258351F5168CE61900D99753 /* ppt_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 258351F1168CE61900D99753 /* ppt_icon.png */; };
+		258351F6168CE61900D99753 /* ppt_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258351F2168CE61900D99753 /* ppt_icon@2x.png */; };
 		7804DC201547AAA100631159 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 7804DC181547AAA100631159 /* ioapi.c */; };
 		7804DC211547AAA100631159 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 7804DC1A1547AAA100631159 /* mztools.c */; };
 		7804DC221547AAA100631159 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 7804DC1C1547AAA100631159 /* unzip.c */; };
@@ -59,6 +63,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		258351EF168CE61900D99753 /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
+		258351F0168CE61900D99753 /* library@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "library@2x.png"; sourceTree = "<group>"; };
+		258351F1168CE61900D99753 /* ppt_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ppt_icon.png; sourceTree = "<group>"; };
+		258351F2168CE61900D99753 /* ppt_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ppt_icon@2x.png"; sourceTree = "<group>"; };
 		7804DC171547AAA100631159 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
 		7804DC181547AAA100631159 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
 		7804DC191547AAA100631159 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
@@ -364,6 +372,10 @@
 		7872C2EF1535403900FD5295 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				258351EF168CE61900D99753 /* library.png */,
+				258351F0168CE61900D99753 /* library@2x.png */,
+				258351F1168CE61900D99753 /* ppt_icon.png */,
+				258351F2168CE61900D99753 /* ppt_icon@2x.png */,
 				78AB42C815E1E649007405B4 /* icon.png */,
 				78AB42C915E1E649007405B4 /* icon@2x.png */,
 				7846E2D615DB5A880099F9DB /* pdf_icon.png */,
@@ -524,6 +536,10 @@
 				78AB42CA15E1E649007405B4 /* icon.png in Resources */,
 				78AB42CB15E1E649007405B4 /* icon@2x.png in Resources */,
 				78D1E76115EABB7A00F1EBC8 /* gradrates2.txt in Resources */,
+				258351F3168CE61900D99753 /* library.png in Resources */,
+				258351F4168CE61900D99753 /* library@2x.png in Resources */,
+				258351F5168CE61900D99753 /* ppt_icon.png in Resources */,
+				258351F6168CE61900D99753 /* ppt_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

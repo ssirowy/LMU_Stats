@@ -1,0 +1,14 @@
+{
+	"type":"Library",
+	"title":"Teaching Evaluations",
+	"docs":
+	{
+		"pdfs":
+		{
+			"Effects of Online Collection":"Effects of Online Teaching Evaluations at LMU.pdf",
+			"Predictors of Evaluation Scores":"CCET Memo.pdf"},
+		"ppts":
+		{
+			"Center for Teaching Excellence":"Financial Aid Leveraging.pdf"}
+	}
+}
