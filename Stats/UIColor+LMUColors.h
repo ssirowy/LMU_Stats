@@ -16,5 +16,6 @@
 
 + (UIColor*)LMURedColor;
 + (UIColor*)LMUBlueColor;
++ (UIColor*)LMUGreyColor;
 
 @end

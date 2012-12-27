@@ -110,7 +110,7 @@ enum {
         CGRect statsRect = CGRectMake(kReportViewMargin, statsOriginY, frame.size.width - 2*kReportViewMargin, frame.size.height - (statsOriginY + kReportViewMargin));
         
         LMUReportView* grid = [[LMUReportView alloc] initWithFrame:statsRect withHeader:self.reportModule.header withReport:nil];
-        grid.backgroundColor = [UIColor LMUBlueColor];
+        grid.backgroundColor = [UIColor LMUGreyColor];
         grid.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
         self.reportGrid = grid;
         [grid release];

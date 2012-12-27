@@ -187,7 +187,7 @@ enum {
 	if (!cell)
     {
         cell = [[[LMUGridCell alloc] initWithReuseIdentifier:cellId] autorelease];
-        cell.backgroundColor = [UIColor LMUBlueColor];
+        cell.backgroundColor = [UIColor LMUGreyColor];
     }
     
     LMUAttributedString* attString = [self gridValueForRow:rowIndex column:columnIndex];
