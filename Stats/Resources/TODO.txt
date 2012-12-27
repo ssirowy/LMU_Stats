@@ -13,4 +13,5 @@ ss: Remove all references to ESRI in bundle identifier
 
 bm: Work on about bio
 bm: Spec out JSON for library module
+bm: Spec out zipped file format
 

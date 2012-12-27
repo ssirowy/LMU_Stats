@@ -12,8 +12,8 @@
 
 - (void)dealloc
 {
-    [_books release];
-    [super  dealloc];
+    [_documents release];
+    [super      dealloc];
 }
 
 @end

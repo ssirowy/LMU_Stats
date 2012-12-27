@@ -17,6 +17,6 @@
 /**
  Books in library to displays
  */
-@property (nonatomic, retain) NSArray* books;
+@property (nonatomic, retain) NSArray* documents;
 
 @end

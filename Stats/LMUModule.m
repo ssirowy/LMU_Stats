@@ -41,8 +41,7 @@
     if ([moduleType isEqualToString:@"Report"]) {
         moduleClass = [LMUReportModule class];
     }
-    else if([moduleType isEqualToString:@"PDF"])
-    {
+    else if([moduleType isEqualToString:@"PDF"]){
         moduleClass = [LMUPDFModule class];
     }
     
