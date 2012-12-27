@@ -34,18 +34,6 @@
 
 @implementation LMUViewController
 
-@synthesize navBar          = _navBar;
-@synthesize navItem         = _navItem;
-@synthesize contentView     = _contentView;
-@synthesize logoView        = _logoView;
-
-@synthesize slideOutView    = _slideOutView;
-@synthesize tableView       = _tableView;
-
-@synthesize modules         = _modules;
-@synthesize currentModule   = _currentModule;
-@synthesize moduleView      = _moduleView;
-
 - (void)dealloc
 {
     [_navBar        release];

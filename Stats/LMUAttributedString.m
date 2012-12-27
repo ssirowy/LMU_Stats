@@ -22,12 +22,6 @@
 
 @implementation LMUAttributedString
 
-@synthesize textAlignment   = _textAlignment;
-@synthesize underlined      = _underlined;
-@synthesize bolded          = _bolded;
-@synthesize italicized      = _italicized;
-@synthesize plainText       = _plainText;
-
 - (void)dealloc
 {
     [_plainText release];

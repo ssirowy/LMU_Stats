@@ -16,8 +16,14 @@
 
 @interface LMUModuleView : UIView
 
+/**
+ Module being represented by view
+ */
 @property (nonatomic, assign, readonly) LMUModule*  module;
 
+/**
+ Default initializer for module view's. Subclasses might override.
+ */
 - (id)initWithFrame:(CGRect)frame withModule:(LMUModule*)module;
 
 @end

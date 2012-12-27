@@ -11,14 +11,25 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "LMUCoding.h"
 
 @class LMUFilter;
 
-@interface LMUFilters : NSObject
+@interface LMUFilters : NSObject <LMUCoding>
 
-- (id)initWithJSON:(NSDictionary *)json;
+/**
+ Returns total number of filters. Use like [NSArray count]
+ */
 - (NSUInteger)count;
+
+/**
+ Returns a filter at a specified index. Nil if index is undefined
+ */
 - (LMUFilter *)filterAtIndex:(NSUInteger)index;
+
+/**
+ Returns index of a given filter. NSNotFound is not found
+ */
 - (NSUInteger)indexOfFilter:(LMUFilter*)filter;
 
 @end

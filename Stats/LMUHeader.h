@@ -11,16 +11,26 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "LMUCoding.h"
 
 @class LMUAttributedString;
 
-@interface LMUHeader : NSObject
+@interface LMUHeader : NSObject <LMUCoding>
 
-- (id)initWithJSON:(NSDictionary *)json;
-
+/**
+ Title for display purposes on header
+ */
 - (NSString*)title;
 
-- (LMUAttributedString*)valueAtColumnIndex:(NSInteger)index;
+/**
+ Returns total number of values to be displayed in header
+ */
 - (NSUInteger)numValues;
+
+/**
+ Since the header defined a set of n values to be displayed, use this to
+ generate an attributed string indexing into header columns
+ */
+- (LMUAttributedString*)valueAtColumnIndex:(NSInteger)index;
 
 @end

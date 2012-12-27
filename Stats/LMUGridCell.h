@@ -14,7 +14,15 @@
 
 @interface LMUGridCell : DTGridViewCell
 
-@property (nonatomic, retain) UILabel* label;
+/**
+ Label for given cell.
+ TODO: Have string property instead that internally sets label?
+ */
+@property (nonatomic, retain, readonly) UILabel*    label;
+
+/**
+ Boolean to indicate whether to italicize label text
+ */
 @property (nonatomic, assign) BOOL      italicized;
 
 @end

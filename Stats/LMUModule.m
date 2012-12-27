@@ -12,9 +12,6 @@
 
 @implementation LMUModule
 
-@synthesize title   = _title;
-@synthesize icon    = _icon;
-
 - (void)dealloc
 {
     [_title     release];
@@ -44,8 +41,7 @@
     if ([moduleType isEqualToString:@"Report"]) {
         moduleClass = [LMUReportModule class];
     }
-    else if([moduleType isEqualToString:@"PDF"])
-    {
+    else if([moduleType isEqualToString:@"PDF"]){
         moduleClass = [LMUPDFModule class];
     }
     

@@ -22,14 +22,6 @@
 
 @implementation LMUSlideOutView
 
-@synthesize contentView         = _contentView;
-@synthesize inputView           = _inputView;
-@synthesize expanded            = _expanded;
-@synthesize slideButton         = _slideButton;
-@synthesize whiteTriangleView   = _whiteTriangleView;
-@synthesize adjacentView        = _adjacentView;
-@synthesize delegate            = _delegate;
-
 static float kMaximumContentViewWidth = 320.0;
 static float kExpansionAnimationLength = 0.5;
 

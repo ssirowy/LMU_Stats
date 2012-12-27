@@ -19,8 +19,6 @@
 
 @implementation LMUPDFModuleView
 
-@synthesize webView = _webView;
-
 - (void)dealloc
 {
     [_webView   release];

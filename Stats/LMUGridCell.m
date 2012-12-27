@@ -11,9 +11,6 @@
 
 @implementation LMUGridCell
 
-@synthesize label       = _label;
-@synthesize italicized  = _italicized;
-
 - (void)dealloc
 {
     [_label release];
@@ -27,16 +24,14 @@
     {
         self.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
         
-        UILabel* l = [[UILabel alloc] initWithFrame:CGRectZero];
-        l.backgroundColor = [UIColor clearColor];
-        l.font = [UIFont systemFontOfSize:18.0f];
-        l.textColor = [UIColor whiteColor];
-        [l sizeToFit];
-        l.textAlignment = UITextAlignmentCenter;
-        self.label = l;
-        [l release];
+        _label = [[UILabel alloc] initWithFrame:CGRectZero];
+        _label.backgroundColor = [UIColor clearColor];
+        _label.font = [UIFont systemFontOfSize:18.0f];
+        _label.textColor = [UIColor whiteColor];
+        [_label sizeToFit];
+        _label.textAlignment = UITextAlignmentCenter;
         
-        [self addSubview:self.label];
+        [self addSubview:_label];
         
     }
     

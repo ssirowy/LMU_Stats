@@ -16,6 +16,9 @@
 
 @interface LMUReportModuleView : LMUModuleView
 
+/**
+ Overriden version of base class implementation
+ */
 - (id)initWithFrame:(CGRect)frame withModule:(LMUReportModule*)module;
 
 @end

@@ -17,8 +17,14 @@
 
 @interface LMUReportView : UIView
 
-@property (nonatomic, retain) LMUReport*    report;
+/**
+ Report being represented by view
+ */
+@property (nonatomic, assign) LMUReport*    report;
 
+/**
+ Default initializer for report view
+ */
 - (id)initWithFrame:(CGRect)frame withHeader:(LMUHeader*)header withReport:(LMUReport*)report;
 
 @end

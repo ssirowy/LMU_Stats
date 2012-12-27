@@ -19,10 +19,6 @@
 
 @implementation LMUFilter
 
-@synthesize title                   = _title;
-@synthesize choices                 = _choices;
-@synthesize selectedFilterString    = _selectedFilterString;
-
 - (void)dealloc
 {
     [_title                 release];

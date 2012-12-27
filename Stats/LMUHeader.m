@@ -22,9 +22,6 @@
 
 @implementation LMUHeader
 
-@synthesize title   = _title;
-@synthesize values  = _values;
-
 - (void)dealloc
 {
     [_title     release];

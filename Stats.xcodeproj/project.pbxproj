@@ -20,6 +20,10 @@
 		781F06391550F6FB00EFA2C1 /* SZJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 781F06381550F6FB00EFA2C1 /* SZJSONParser.m */; };
 		781F063C1550F78600EFA2C1 /* gradrates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 781F063B1550F78600EFA2C1 /* gradrates.txt */; };
 		78235861155A2D1500FD16F1 /* LMUFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 78235860155A2D1500FD16F1 /* LMUFilters.m */; };
+		78373646168CCD9900ED0F90 /* LMULibraryModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 78373645168CCD9900ED0F90 /* LMULibraryModule.m */; };
+		78373648168CD03200ED0F90 /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78373647168CD03100ED0F90 /* TODO.txt */; };
+		7837364E168CD83400ED0F90 /* LMUDocuments.m in Sources */ = {isa = PBXBuildFile; fileRef = 7837364D168CD83400ED0F90 /* LMUDocuments.m */; };
+		78373651168CDA1F00ED0F90 /* LMUDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 78373650168CDA1F00ED0F90 /* LMUDocument.m */; };
 		7846E2CE15DB52A00099F9DB /* LMUModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846E2CD15DB52A00099F9DB /* LMUModuleView.m */; };
 		7846E2D515DB56B00099F9DB /* LMUPDFModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846E2D415DB56B00099F9DB /* LMUPDFModuleView.m */; };
 		7846E2D815DB5A880099F9DB /* pdf_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7846E2D615DB5A880099F9DB /* pdf_icon.png */; };
@@ -84,6 +88,14 @@
 		781F063B1550F78600EFA2C1 /* gradrates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gradrates.txt; path = Resources/gradrates.txt; sourceTree = "<group>"; };
 		7823585F155A2D1500FD16F1 /* LMUFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUFilters.h; sourceTree = "<group>"; };
 		78235860155A2D1500FD16F1 /* LMUFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUFilters.m; sourceTree = "<group>"; };
+		78373644168CCD9900ED0F90 /* LMULibraryModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMULibraryModule.h; sourceTree = "<group>"; };
+		78373645168CCD9900ED0F90 /* LMULibraryModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMULibraryModule.m; sourceTree = "<group>"; };
+		78373647168CD03100ED0F90 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TODO.txt; path = Stats/Resources/TODO.txt; sourceTree = "<group>"; };
+		7837364B168CD19500ED0F90 /* LMUCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUCoding.h; sourceTree = "<group>"; };
+		7837364C168CD83400ED0F90 /* LMUDocuments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUDocuments.h; sourceTree = "<group>"; };
+		7837364D168CD83400ED0F90 /* LMUDocuments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUDocuments.m; sourceTree = "<group>"; };
+		7837364F168CDA1E00ED0F90 /* LMUDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUDocument.h; sourceTree = "<group>"; };
+		78373650168CDA1F00ED0F90 /* LMUDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUDocument.m; sourceTree = "<group>"; };
 		7846E2CC15DB52A00099F9DB /* LMUModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUModuleView.h; sourceTree = "<group>"; };
 		7846E2CD15DB52A00099F9DB /* LMUModuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUModuleView.m; sourceTree = "<group>"; };
 		7846E2D315DB56B00099F9DB /* LMUPDFModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUPDFModuleView.h; sourceTree = "<group>"; };
@@ -197,6 +209,36 @@
 			path = minizip;
 			sourceTree = "<group>";
 		};
+		78373642168CCD7800ED0F90 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				78373644168CCD9900ED0F90 /* LMULibraryModule.h */,
+				78373645168CCD9900ED0F90 /* LMULibraryModule.m */,
+				7837364C168CD83400ED0F90 /* LMUDocuments.h */,
+				7837364D168CD83400ED0F90 /* LMUDocuments.m */,
+				7837364F168CDA1E00ED0F90 /* LMUDocument.h */,
+				78373650168CDA1F00ED0F90 /* LMUDocument.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		78373649168CD17100ED0F90 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				78E5EB2C15DA058B0047BFFA /* UIColor+LMUColors.h */,
+				78E5EB2D15DA058B0047BFFA /* UIColor+LMUColors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		7837364A168CD17F00ED0F90 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7837364B168CD19500ED0F90 /* LMUCoding.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		7846E2D015DB52A60099F9DB /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,8 +269,8 @@
 		7846E2DA15DB5C760099F9DB /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				78E5EB2C15DA058B0047BFFA /* UIColor+LMUColors.h */,
-				78E5EB2D15DA058B0047BFFA /* UIColor+LMUColors.m */,
+				7837364A168CD17F00ED0F90 /* Protocols */,
+				78373649168CD17100ED0F90 /* Categories */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -319,6 +361,7 @@
 		7872C2C315353FE800FD5295 = {
 			isa = PBXGroup;
 			children = (
+				78373647168CD03100ED0F90 /* TODO.txt */,
 				7872C2D815353FE900FD5295 /* Stats */,
 				7872C2D115353FE900FD5295 /* Frameworks */,
 				7872C2CF15353FE900FD5295 /* Products */,
@@ -421,6 +464,7 @@
 			children = (
 				785F1CD215DA0D1000A9C7DD /* Base */,
 				785F1CD115DA0CFC00A9C7DD /* Reports */,
+				78373642168CCD7800ED0F90 /* Library */,
 				785F1CD315DA0D1800A9C7DD /* PDF */,
 				78AB42C415E18C0F007405B4 /* About */,
 			);
@@ -499,7 +543,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LMU;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 7872C2C815353FE800FD5295 /* Build configuration list for PBXProject "Stats" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -540,6 +584,7 @@
 				258351F4168CE61900D99753 /* library@2x.png in Resources */,
 				258351F5168CE61900D99753 /* ppt_icon.png in Resources */,
 				258351F6168CE61900D99753 /* ppt_icon@2x.png in Resources */,
+				78373648168CD03200ED0F90 /* TODO.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +626,9 @@
 				78AB42C315E18AAF007405B4 /* LMUReport.m in Sources */,
 				78AB42C715E18C56007405B4 /* LMUAboutModule.m in Sources */,
 				78D1E75E15EABB5E00F1EBC8 /* LMUReports.m in Sources */,
+				78373646168CCD9900ED0F90 /* LMULibraryModule.m in Sources */,
+				7837364E168CD83400ED0F90 /* LMUDocuments.m in Sources */,
+				78373651168CDA1F00ED0F90 /* LMUDocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,8 +10,6 @@
 
 @implementation LMUModuleView
 
-@synthesize module   = _module;
-
 - (void)dealloc
 {
     [_module    release];
