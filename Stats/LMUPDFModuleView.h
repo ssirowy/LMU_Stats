@@ -16,6 +16,9 @@
 
 @interface LMUPDFModuleView : LMUModuleView
 
+/**
+ Overridden version of base class implementation
+ */
 - (id)initWithFrame:(CGRect)frame withModule:(LMUPDFModule*)module;
 
 @end

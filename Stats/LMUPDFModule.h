@@ -14,6 +14,9 @@
 
 @interface LMUPDFModule : LMUModule
 
+/**
+ File name of PDF being displayed
+ */
 @property (nonatomic, copy, readonly) NSString* fileName;
 
 @end

@@ -14,6 +14,9 @@
 
 @interface UIColor (LMUColors)
 
+/**
+ A number of color additionas
+ */
 + (UIColor*)LMURedColor;
 + (UIColor*)LMUBlueColor;
 + (UIColor*)LMUGreyColor;
