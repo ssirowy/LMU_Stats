@@ -17,6 +17,7 @@
 		781F063C1550F78600EFA2C1 /* gradrates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 781F063B1550F78600EFA2C1 /* gradrates.txt */; };
 		78235861155A2D1500FD16F1 /* LMUFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 78235860155A2D1500FD16F1 /* LMUFilters.m */; };
 		78373646168CCD9900ED0F90 /* LMULibraryModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 78373645168CCD9900ED0F90 /* LMULibraryModule.m */; };
+		78373648168CD03200ED0F90 /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78373647168CD03100ED0F90 /* TODO.txt */; };
 		7846E2CE15DB52A00099F9DB /* LMUModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846E2CD15DB52A00099F9DB /* LMUModuleView.m */; };
 		7846E2D515DB56B00099F9DB /* LMUPDFModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846E2D415DB56B00099F9DB /* LMUPDFModuleView.m */; };
 		7846E2D815DB5A880099F9DB /* pdf_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7846E2D615DB5A880099F9DB /* pdf_icon.png */; };
@@ -79,6 +80,7 @@
 		78235860155A2D1500FD16F1 /* LMUFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUFilters.m; sourceTree = "<group>"; };
 		78373644168CCD9900ED0F90 /* LMULibraryModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMULibraryModule.h; sourceTree = "<group>"; };
 		78373645168CCD9900ED0F90 /* LMULibraryModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMULibraryModule.m; sourceTree = "<group>"; };
+		78373647168CD03100ED0F90 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TODO.txt; path = Stats/Resources/TODO.txt; sourceTree = "<group>"; };
 		7846E2CC15DB52A00099F9DB /* LMUModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUModuleView.h; sourceTree = "<group>"; };
 		7846E2CD15DB52A00099F9DB /* LMUModuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUModuleView.m; sourceTree = "<group>"; };
 		7846E2D315DB56B00099F9DB /* LMUPDFModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUPDFModuleView.h; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 		7872C2C315353FE800FD5295 = {
 			isa = PBXGroup;
 			children = (
+				78373647168CD03100ED0F90 /* TODO.txt */,
 				7872C2D815353FE900FD5295 /* Stats */,
 				7872C2D115353FE900FD5295 /* Frameworks */,
 				7872C2CF15353FE900FD5295 /* Products */,
@@ -537,6 +540,7 @@
 				78AB42CA15E1E649007405B4 /* icon.png in Resources */,
 				78AB42CB15E1E649007405B4 /* icon@2x.png in Resources */,
 				78D1E76115EABB7A00F1EBC8 /* gradrates2.txt in Resources */,
+				78373648168CD03200ED0F90 /* TODO.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
