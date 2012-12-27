@@ -38,10 +38,6 @@ void logMachTime_withIdentifier_(uint64_t machTime, NSString *identifier)
 
 @implementation LMUAppDelegate
 
-@synthesize window          = _window;
-@synthesize viewController  = _viewController;
-@synthesize modules         = _modules;
-
 - (void)dealloc
 {
     [_window            release];

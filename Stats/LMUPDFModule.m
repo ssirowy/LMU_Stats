@@ -10,8 +10,6 @@
 
 @implementation LMUPDFModule
 
-@synthesize fileName    = _fileName;
-
 - (void)dealloc
 {
     [_fileName  release];

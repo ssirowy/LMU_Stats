@@ -7,6 +7,7 @@
 //
 
 #import "LMUFilters.h"
+#import "LMUFilter.h"
 
 @interface LMUFilters () 
 
@@ -15,8 +16,6 @@
 @end
 
 @implementation LMUFilters
-
-@synthesize filters = _filters;
 
 - (void)dealloc
 {

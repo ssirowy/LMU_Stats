@@ -12,9 +12,6 @@
 
 @implementation LMUModule
 
-@synthesize title   = _title;
-@synthesize icon    = _icon;
-
 - (void)dealloc
 {
     [_title     release];

@@ -18,9 +18,6 @@
 
 @implementation LMUFilterSelectionViewController
 
-@synthesize delegate    = _delegate;
-@synthesize filter      = _filter;
-
 - (void)dealloc
 {
     [_filter    release];

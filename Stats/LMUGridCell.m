@@ -11,9 +11,6 @@
 
 @implementation LMUGridCell
 
-@synthesize label       = _label;
-@synthesize italicized  = _italicized;
-
 - (void)dealloc
 {
     [_label release];

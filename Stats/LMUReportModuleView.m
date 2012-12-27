@@ -47,11 +47,6 @@ enum {
 
 @implementation LMUReportModuleView
 
-@synthesize filterChoicePopover = _filterChoicePopover;
-@synthesize reportGrid          = _reportGrid;
-@synthesize currentReport       = _currentReport;
-@synthesize buttons             = _buttons;
-
 - (void)dealloc
 {
     [_filterChoicePopover   release];
