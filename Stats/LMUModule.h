@@ -11,6 +11,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "LMUCoding.h"
 
 typedef enum
 {
@@ -23,12 +24,11 @@ typedef enum
 @class LMUHeader;
 @class LMUReports;
 
-@interface LMUModule : NSObject
+@interface LMUModule : NSObject <LMUCoding>
 
 @property (nonatomic, copy, readonly) NSString*         title;
 @property (nonatomic, retain) UIImage*                  icon;
 
-- (id)initWithJSON:(NSDictionary *)json;
 + (NSArray*)modulesFromJSON:(NSDictionary*)json forKey:(NSString*)key;
 
 @end

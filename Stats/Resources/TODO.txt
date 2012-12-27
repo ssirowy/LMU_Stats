@@ -1,4 +1,5 @@
-TODO
+TODO List
+-------------------------------------------------------
 
 ss: Lazily load modules
 ss: Fix rendering issues on grid view
@@ -9,6 +10,7 @@ ss: Waiting indicators while JSON is loading
 ss: About module
 ss: Work on about bio
 ss: Remove all references to ESRI in bundle identifier
+
 bm: Work on about bio
 bm: Spec out JSON for library module
 

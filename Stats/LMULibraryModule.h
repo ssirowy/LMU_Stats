@@ -14,4 +14,9 @@
 
 @interface LMULibraryModule : LMUModule
 
+/**
+ Books in library to displays
+ */
+@property (nonatomic, retain) NSArray* books;
+
 @end

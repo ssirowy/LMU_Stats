@@ -81,6 +81,7 @@
 		78373644168CCD9900ED0F90 /* LMULibraryModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMULibraryModule.h; sourceTree = "<group>"; };
 		78373645168CCD9900ED0F90 /* LMULibraryModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMULibraryModule.m; sourceTree = "<group>"; };
 		78373647168CD03100ED0F90 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TODO.txt; path = Stats/Resources/TODO.txt; sourceTree = "<group>"; };
+		7837364B168CD19500ED0F90 /* LMUCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUCoding.h; sourceTree = "<group>"; };
 		7846E2CC15DB52A00099F9DB /* LMUModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUModuleView.h; sourceTree = "<group>"; };
 		7846E2CD15DB52A00099F9DB /* LMUModuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUModuleView.m; sourceTree = "<group>"; };
 		7846E2D315DB56B00099F9DB /* LMUPDFModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUPDFModuleView.h; sourceTree = "<group>"; };
@@ -203,6 +204,23 @@
 			name = Library;
 			sourceTree = "<group>";
 		};
+		78373649168CD17100ED0F90 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				78E5EB2C15DA058B0047BFFA /* UIColor+LMUColors.h */,
+				78E5EB2D15DA058B0047BFFA /* UIColor+LMUColors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		7837364A168CD17F00ED0F90 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7837364B168CD19500ED0F90 /* LMUCoding.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		7846E2D015DB52A60099F9DB /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,8 +251,8 @@
 		7846E2DA15DB5C760099F9DB /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				78E5EB2C15DA058B0047BFFA /* UIColor+LMUColors.h */,
-				78E5EB2D15DA058B0047BFFA /* UIColor+LMUColors.m */,
+				7837364A168CD17F00ED0F90 /* Protocols */,
+				78373649168CD17100ED0F90 /* Categories */,
 			);
 			name = Utility;
 			sourceTree = "<group>";

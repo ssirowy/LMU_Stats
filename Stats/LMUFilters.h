@@ -11,12 +11,12 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "LMUCoding.h"
 
 @class LMUFilter;
 
-@interface LMUFilters : NSObject
+@interface LMUFilters : NSObject <LMUCoding>
 
-- (id)initWithJSON:(NSDictionary *)json;
 - (NSUInteger)count;
 - (LMUFilter *)filterAtIndex:(NSUInteger)index;
 - (NSUInteger)indexOfFilter:(LMUFilter*)filter;

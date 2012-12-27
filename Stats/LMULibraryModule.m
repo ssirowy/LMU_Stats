@@ -10,4 +10,10 @@
 
 @implementation LMULibraryModule
 
+- (void)dealloc
+{
+    [_books release];
+    [super  dealloc];
+}
+
 @end

@@ -16,6 +16,8 @@
 
 @interface LMUReport : NSObject
 
+- (id)initWithJSON:(NSArray*)json;
+
 //Accepts an array of JSON that represents report;
 + (LMUReport*)reportWithJSONArray:(NSArray*)json;
 

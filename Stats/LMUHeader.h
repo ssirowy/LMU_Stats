@@ -11,12 +11,11 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "LMUCoding.h"
 
 @class LMUAttributedString;
 
-@interface LMUHeader : NSObject
-
-- (id)initWithJSON:(NSDictionary *)json;
+@interface LMUHeader : NSObject <LMUCoding>
 
 - (NSString*)title;
 

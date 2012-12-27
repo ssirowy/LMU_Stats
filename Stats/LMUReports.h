@@ -11,12 +11,11 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "LMUCoding.h"
 
 @class LMUReport;
 
-@interface LMUReports : NSObject
-
-- (id)initWithJSON:(NSDictionary*)json;
+@interface LMUReports : NSObject <LMUCoding>
 
 - (LMUReport*)reportForEncodedString:(NSString*)encodedString;
 

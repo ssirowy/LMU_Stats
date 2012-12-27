@@ -194,7 +194,7 @@
     BOOL isEscaped = NO;
     while ([self hasMoreCharacters]) {
         unichar c = [self getNextCharacter];
-        if (!isEscaped && (stringEdgeType == 0 && c == '"' || stringEdgeType == 1 && c == '\'')) {
+        if (!isEscaped && ((stringEdgeType == 0 && c == '"') || (stringEdgeType == 1 && c == '\''))) {
             break;
         }
         if (!isEscaped) {
